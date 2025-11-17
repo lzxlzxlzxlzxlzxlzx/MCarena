@@ -1,7 +1,7 @@
 import requests
 import json
 import csv
-// AI start
+# AI start
 # 替换为你的 DeepSeek API Key
 API_KEY = "sk-230dec004557436fbced6a2c5760f595"
 # DeepSeek API 的请求地址，根据实际情况确认
@@ -176,7 +176,7 @@ def write_to_csv(new_test_content, csv_file_path):
             reader = csv.reader([line], delimiter=',', quotechar='"')
             row = next(reader)
             writer.writerow(row)
-// AI end
+# AI end
 # 主函数
 def main():
     test_result_file_path = "docs/批量测试结果.md"  # 更新为新的文件路径
